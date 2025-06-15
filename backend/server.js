@@ -12,7 +12,7 @@ import customerroute from './Routes/customer.js'
 const app = express();
 //Middlewares
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'*',
     credentials: true,
 }));
 
